@@ -58,3 +58,5 @@ while guess_count<guess_limit:
 else:
     print('Sorry, You Filed!')
 print('Sorry, You Filed!')
+print('you, You Filed!')
+print('you, You passed!')
