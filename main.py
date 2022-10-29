@@ -1,5 +1,4 @@
-
- #1 
+# 1
 '''name=input("whats your name? ")
 print('Hi ' + name)'''
 
@@ -24,7 +23,7 @@ if temperature>30:
     print('its a hot day')
 else:
     print('its not a hot day')'''
-    
+
 '''name='vi'
 
 if len(name)< 3:
@@ -33,7 +32,7 @@ elif len(name)>50:
     print('name can be a max of 50 characters')
 else:
     print('name looks good')'''
-    
+
 # wap to convet killograms to pound and vice varsa.
 '''weight=int(input('weight='))
 unit=input('(l)bs or (k)g: ')
@@ -45,19 +44,20 @@ else:
     print(f'you are {convert} pounds')
      '''
 # wap to create a guessing number game if you guess right numner than it should print you win other wise you failed.
-secret_number=10
-guess_count=0
-guess_limit=3
+secret_number = 10
+guess_count = 0
+guess_limit = 3
 
-while guess_count<guess_limit:
-    guess=int(input('Guess= '))
+while guess_count < guess_limit:
+    guess = int(input('Guess= '))
     guess_count += 1
     if guess == secret_number:
         print('You Won !')
         break
 else:
-    print('Sorry, You Filed!')
+print('Sorry, You Filed!')
 print('Sorry, You Filed!')
 print('you, You Filed!')
 print('you, You passed!')
 print('you are good')
+print('hello developer')
